@@ -1,7 +1,8 @@
-export const Timer = ({ time }) => {
+export const Timer = ({ hours, minutes, seconds, status }) => {
   return (
     <div>
-      <h3>{ time }</h3>
+      <h1>{ hours } : { minutes } : { seconds }</h1>
+      <h2>Status: { status }</h2>
     </div>
   )
 }

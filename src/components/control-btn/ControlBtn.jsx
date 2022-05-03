@@ -1,7 +1,7 @@
-export const ControlBtn = ({ name }) => {
+export const ControlBtn = ({ name, onClick }) => {
   return (
     <div>
-      <button>
+      <button onClick={ onClick }>
         { name }
       </button>
     </div>

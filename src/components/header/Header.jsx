@@ -1,7 +1,7 @@
 export const Header = () => {
   return (
     <header>
-      <h1>My default title</h1>
+      <h1>My Timer To Study</h1>
     </header>
   )
 }

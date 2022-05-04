@@ -46,6 +46,7 @@ export const TimerContainer = () => {
     <>
       <Header />
       <div>
+      <h2>Choose a mode and run your timer!</h2>
         <ModeBtn name="Focus" onClick={ () => setSecondsRemaining(1500) }/>
         <ModeBtn name="Short Break" onClick={ () => setSecondsRemaining(300) }/>
         <ModeBtn name="Long Break" onClick={ () => setSecondsRemaining(1200) }/>

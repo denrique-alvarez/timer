@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/denrique-alvarez/timer/static/css/main.073c9b0a.css",
+    "main.js": "/denrique-alvarez/timer/static/js/main.13ef4b2b.js",
+    "static/js/787.8e9e615b.chunk.js": "/denrique-alvarez/timer/static/js/787.8e9e615b.chunk.js",
+    "index.html": "/denrique-alvarez/timer/index.html",
+    "main.073c9b0a.css.map": "/denrique-alvarez/timer/static/css/main.073c9b0a.css.map",
+    "main.13ef4b2b.js.map": "/denrique-alvarez/timer/static/js/main.13ef4b2b.js.map",
+    "787.8e9e615b.chunk.js.map": "/denrique-alvarez/timer/static/js/787.8e9e615b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.13ef4b2b.js"
+  ]
+}

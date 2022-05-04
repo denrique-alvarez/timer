@@ -2,8 +2,9 @@ import { Header } from "../header/Header";
 import { Timer } from "../timer/Timer";
 import { ModeBtn } from "../mode-btn/ModeBtn";
 import { ControlBtn } from "../control-btn/ControlBtn";
+import { useInterval } from "../../logic/use-interval.js";
 
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 
 export const TimerContainer = () => {
   const STATUS = {
@@ -67,26 +68,5 @@ export const TimerContainer = () => {
     </>
   );
 };
-
-function useInterval(callback, delay) {
-  const savedCallback = useRef()
-
-  // Remember the latest callback.
-  useEffect(() => {
-    savedCallback.current = callback
-  }, [callback])
-
-  // Set up the interval.
-  useEffect(() => {
-    function tick() {
-      savedCallback.current()
-    }
-    if (delay !== null) {
-      let id = setInterval(tick, delay)
-      return () => clearInterval(id)
-    }
-  }, [delay])
-}
-
 // Implementation based on:
 // https://codesandbox.io/s/react-countdown-demo-gtr4u?file=/src/App.js
